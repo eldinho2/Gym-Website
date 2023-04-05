@@ -4,7 +4,7 @@ import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export default function Header() {
   return (
-    <header className="absolute text-center fixed left-[12%] bg-transparent flex justify-evenly items-center z-10 h-36">
+    <header className="absolute text-center left-[12%] bg-transparent flex justify-evenly items-center z-10 h-36">
         <h1 className="flex font-bold text-3xl hover:cursor-pointer text-[#FCFCFC] relative">
           <Image className="right-[149px] bottom-[8px] absolute" width={30} height={10} src="/muscleBlue.png" alt="" />
           FLEXZONE
