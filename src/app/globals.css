@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ul li {
+  position: relative;
+}
+
+.lista-brilhante li::before {
+  content: "";
+  position: absolute;
+  left: -68px;
+  top: -14px;
+  width: 75px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #55C5E9;
+  opacity: 0,1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+ul li::before {
+  opacity: 0.1;
+  box-shadow: 0 0 5px 5px #55C5E9;
+  animation: pulse 5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 5px 5px #55C5E9;
+  }
+  100% {
+    box-shadow: 0 0 10px 10px #55C5E9;
+  }
+}

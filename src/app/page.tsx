@@ -100,7 +100,7 @@ export default function Home() {
         </div>
       </section>
       <section className="">
-        <ul className="text-slate-50 flex flex-wrap justify-center items-center w-full">
+        <ul className="lista-brilhante text-slate-50 flex flex-wrap justify-center items-center w-full">
           <li className="list-image-[url(/musculo.svg)] max-w-[508px] m-8">
             <h1 className="font-medium text-4xl text-[#FCFCFC]">
               verdadeira atmosfera de academia
