@@ -1,3 +1,5 @@
+import Header from './components/Header'
+import Footer from './components/Footer'
 import Image from "next/image";
 
 export default function Home() {
@@ -251,8 +253,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="mt-36 ml-48">
-        <div className="flex flex-col text-[#FCFCFC] gap-2">
+      <section className="flex justify-center flex-col mt-36 ml-48">
+        <div className="flex flex-col justify-center text-[#FCFCFC] gap-2">
           <h1 className="font-medium text-xl text-[#55C5E9]">
             Veja como é a nossa Academia
           </h1>
@@ -296,9 +298,9 @@ export default function Home() {
       <section className="mt-28 ml-48">
         <div className="flex flex-col text-[#FCFCFC] gap-2">
           <h1 className="font-medium text-xl text-[#55C5E9]">
-            Veja como é a nossa Academia
+            4 Anos de experiencia
           </h1>
-          <h1 className="font-medium text-5xl">Galeria</h1>
+          <h1 className="font-medium text-5xl">Nossos Treinadores</h1>
         </div>
         <div className="flex mt-12 gap-8">
           <div>
@@ -395,59 +397,61 @@ export default function Home() {
       <section className="flex justify-center">
         <div className="flex justify-center rounded-md w-[1118px] h-[500px] bg-[#FCFCFC1A] text-[#FCFCFC]">
           <div className="flex flex-col p-10">
-          <h1 className="text-[#55C5E9] font-medium text-xl">Contato</h1>
-          <h2 className="font-medium text-2xl py-5">Não podemos esperar para te ver.</h2>
-          <p className="font-normal text-base pb-7">
-            We are looking forward to you joining our gym, training with us and
-            starting your journey for your dream physique.
-          </p>
-          <div className="flex flex-col gap-4">
-          <p className="flex">
-            <Image
-              className="object-contain"
-              height={20}
-              width={20}
-              alt=""
-              src={"/telephone-receiver-material-svgrepo-com.svg"}
-            />
-            11 5342-1234
-          </p>
-          <p className="flex">
-            <Image
-              className="object-contain"
-              height={20}
-              width={20}
-              alt=""
-              src={"/mail-svgrepo-com.svg"}
-            />
-            info@flexzone.com
-          </p>
-          <p className="flex">
-            <Image
-              className="object-contain"
-              height={20}
-              width={20}
-              alt=""
-              src={"/pointer-map-pointer-svgrepo-com.svg"}
-            />
-            121 Maple Street Newark, NJ 07102
-          </p>
-          <p className="flex">
-            <Image
-              className="object-contain"
-              height={20}
-              width={20}
-              alt=""
-              src={"/clock-svgrepo-com.svg"}
-            />
-            Monday - Saturday: 8AM - 20PM Sunday: Closed
-          </p>
-          </div>
-          <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+            <h1 className="text-[#55C5E9] font-medium text-xl">Contato</h1>
+            <h2 className="font-medium text-2xl py-5">
+              Não podemos esperar para te ver.
+            </h2>
+            <p className="font-normal text-base pb-7">
+              We are looking forward to you joining our gym, training with us
+              and starting your journey for your dream physique.
+            </p>
+            <div className="flex flex-col gap-4">
+              <p className="flex">
+                <Image
+                  className="object-contain"
+                  height={20}
+                  width={20}
+                  alt=""
+                  src={"/telephone-receiver-material-svgrepo-com.svg"}
+                />
+                11 5342-1234
+              </p>
+              <p className="flex">
+                <Image
+                  className="object-contain"
+                  height={20}
+                  width={20}
+                  alt=""
+                  src={"/mail-svgrepo-com.svg"}
+                />
+                info@flexzone.com
+              </p>
+              <p className="flex">
+                <Image
+                  className="object-contain"
+                  height={20}
+                  width={20}
+                  alt=""
+                  src={"/pointer-map-pointer-svgrepo-com.svg"}
+                />
+                121 Maple Street Newark, NJ 07102
+              </p>
+              <p className="flex">
+                <Image
+                  className="object-contain"
+                  height={20}
+                  width={20}
+                  alt=""
+                  src={"/clock-svgrepo-com.svg"}
+                />
+                Monday - Saturday: 8AM - 20PM Sunday: Closed
+              </p>
+            </div>
+            <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
               Tenho uma pergunta <strong className="text-[#55C5E9]">➔</strong>
             </p>
           </div>
-          <div>
+          <div className="flex justify-center pt-7 pr-7">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.062126999087!2d-46.50492675661717!3d-23.636013255028633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69d81e549de9%3A0x8d6fbee1ed393d7c!2sAcademia%20Smart%20Fit%20-%20Parque%20Orat%C3%B3rio!5e0!3m2!1spt-BR!2sbr!4v1681241633340!5m2!1spt-BR!2sbr"
               width="600"
