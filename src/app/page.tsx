@@ -153,7 +153,7 @@ export default function Home() {
         </ul>
       </section>
       <section className="flex justify-center text-[#FCFCFC]">
-        <div className="flex justify-center items-center content-center flex-col mt-36 mb-12">
+        <div className="flex justify-center items-center content-center flex-col mt-20 mb-7">
           <h1 className="font-medium text-xl text-[#55C5E9]">
             PRIMEIRO TREINO GRÁTIS
           </h1>
@@ -248,6 +248,215 @@ export default function Home() {
             <button className="flex justify-center rounded-lg border border-white px-20 py-2 ">
               Comprar Online
             </button>
+          </div>
+        </div>
+      </section>
+      <section className="mt-36 ml-48">
+        <div className="flex flex-col text-[#FCFCFC] gap-2">
+          <h1 className="font-medium text-xl text-[#55C5E9]">
+            Veja como é a nossa Academia
+          </h1>
+          <h1 className="font-medium text-5xl">Galeria</h1>
+        </div>
+        <div className="flex mt-12 gap-5">
+          <Image
+            className="object-contain"
+            quality={100}
+            priority={true}
+            height={256}
+            width={360}
+            alt=""
+            src={"/Rectangle 18.png"}
+          />
+          <Image
+            className=""
+            quality={100}
+            priority={true}
+            height={256}
+            width={360}
+            alt=""
+            src={"/Rectangle 19.png"}
+          />
+          <Image
+            className="object-contain"
+            quality={100}
+            priority={true}
+            height={256}
+            width={360}
+            alt=""
+            src={"/Rectangle 20.png"}
+          />
+        </div>
+        <div className="text-[#FCFCFC] flex w-[1090px] justify-end m-7">
+          <p className="cursor-pointer">
+            Mais fotos <strong className="text-[#55C5E9]">➔</strong>
+          </p>
+        </div>
+      </section>
+      <section className="mt-28 ml-48">
+        <div className="flex flex-col text-[#FCFCFC] gap-2">
+          <h1 className="font-medium text-xl text-[#55C5E9]">
+            Veja como é a nossa Academia
+          </h1>
+          <h1 className="font-medium text-5xl">Galeria</h1>
+        </div>
+        <div className="flex mt-12 gap-8">
+          <div>
+            <Image
+              className="object-contain"
+              quality={100}
+              priority={true}
+              height={256}
+              width={256}
+              alt=""
+              src={"/Rectangle 16.png"}
+            />
+            <h1 className="text-[#FCFCFC] font-medium text-xl">
+              Emily Williams
+            </h1>
+            <p className="text-[#FCFCFC] font-normal text-xs italic max-w-[256px]">
+              Sempre fui atraído(a) pelo poder transformador do fitness e não há
+              nada que eu ame mais do que ver meus clientes atingindo seus
+              objetivos e alcançando todo o seu potencial.
+            </p>
+            <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+              Contato <strong className="text-[#55C5E9]">➔</strong>
+            </p>
+          </div>
+          <div>
+            <Image
+              className="object-contain"
+              quality={100}
+              priority={true}
+              height={256}
+              width={256}
+              alt=""
+              src={"/Rectangle 21.png"}
+            />
+            <h1 className="text-[#FCFCFC] font-medium text-xl">
+              Olivia Taylor
+            </h1>
+            <p className="text-[#FCFCFC] font-normal text-xs italic max-w-[256px]">
+              Como ex-atleta competitivo, eu sei em primeira mão a importância
+              do trabalho duro e dedicação. Eu trago o mesmo nível de
+              comprometimento aos meus clientes e estou sempre me esforçando
+              para ajudá-los a alcançar todo o seu potencial.
+            </p>
+            <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+              Contato <strong className="text-[#55C5E9]">➔</strong>
+            </p>
+          </div>
+          <div>
+            <Image
+              className="object-contain"
+              quality={100}
+              priority={true}
+              height={256}
+              width={256}
+              alt=""
+              src={"/Rectangle 17.png"}
+            />
+            <h1 className="text-[#FCFCFC] font-medium text-xl">
+              Benjamim Smith
+            </h1>
+            <p className="text-[#FCFCFC] font-normal text-xs italic max-w-[256px]">
+              Acredito que o fitness é mais do que apenas uma busca física - é
+              uma mentalidade e um estilo de vida. É por isso que eu me
+              concentro em ajudar meus clientes a desenvolver hábitos e
+              comportamentos saudáveis que possam sustentar a longo prazo.
+            </p>
+            <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+              Contato <strong className="text-[#55C5E9]">➔</strong>
+            </p>
+          </div>
+          <div>
+            <Image
+              className="object-contain"
+              quality={100}
+              priority={true}
+              height={256}
+              width={256}
+              alt=""
+              src={"/Rectangle 14.png"}
+            />
+            <h1 className="text-[#FCFCFC] font-medium text-xl">
+              Matheus Johnson
+            </h1>
+            <p className="text-[#FCFCFC] font-normal text-xs italic max-w-[256px]">
+              Eu sou apaixonado por saúde e fitness desde que me lembro, e
+              sempre amei ajudar os outros a alcançarem seus objetivos.
+            </p>
+            <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+              Contato <strong className="text-[#55C5E9]">➔</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section className="flex justify-center">
+        <div className="flex justify-center rounded-md w-[1118px] h-[500px] bg-[#FCFCFC1A] text-[#FCFCFC]">
+          <div className="flex flex-col p-10">
+          <h1 className="text-[#55C5E9] font-medium text-xl">Contato</h1>
+          <h2 className="font-medium text-2xl py-5">Não podemos esperar para te ver.</h2>
+          <p className="font-normal text-base pb-7">
+            We are looking forward to you joining our gym, training with us and
+            starting your journey for your dream physique.
+          </p>
+          <div className="flex flex-col gap-4">
+          <p className="flex">
+            <Image
+              className="object-contain"
+              height={20}
+              width={20}
+              alt=""
+              src={"/telephone-receiver-material-svgrepo-com.svg"}
+            />
+            11 5342-1234
+          </p>
+          <p className="flex">
+            <Image
+              className="object-contain"
+              height={20}
+              width={20}
+              alt=""
+              src={"/mail-svgrepo-com.svg"}
+            />
+            info@flexzone.com
+          </p>
+          <p className="flex">
+            <Image
+              className="object-contain"
+              height={20}
+              width={20}
+              alt=""
+              src={"/pointer-map-pointer-svgrepo-com.svg"}
+            />
+            121 Maple Street Newark, NJ 07102
+          </p>
+          <p className="flex">
+            <Image
+              className="object-contain"
+              height={20}
+              width={20}
+              alt=""
+              src={"/clock-svgrepo-com.svg"}
+            />
+            Monday - Saturday: 8AM - 20PM Sunday: Closed
+          </p>
+          </div>
+          <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+              Tenho uma pergunta <strong className="text-[#55C5E9]">➔</strong>
+            </p>
+          </div>
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.062126999087!2d-46.50492675661717!3d-23.636013255028633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69d81e549de9%3A0x8d6fbee1ed393d7c!2sAcademia%20Smart%20Fit%20-%20Parque%20Orat%C3%B3rio!5e0!3m2!1spt-BR!2sbr!4v1681241633340!5m2!1spt-BR!2sbr"
+              width="600"
+              height="450"
+              className="border rounded"
+              allowFullScreen={true}
+              aria-hidden="false"
+              tabIndex={0}
+            />
           </div>
         </div>
       </section>
