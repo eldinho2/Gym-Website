@@ -164,97 +164,97 @@ export default function Home() {
         </div>
       </section>
       <section className="flex justify-center text-[#FCFCFC]">
-        <div className="flex justify-center items-center gap-8 ">
-          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] lg:h-[330px] lg:w-[200px]">
-            <h1 className="m-6 font-medium text-3xl lg:font-normal lg:text-2xl lg:m-1">
+        <div className="flex justify-center items-center gap-8 xsm:gap-1">
+          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] xsm:h-[400px] xsm:w-[120px] lg:h-[330px] lg:w-[200px]">
+            <h1 className="m-6 font-medium text-3xl xsm:text-base xsm:m-0 lg:font-normal lg:text-2xl lg:m-1">
               BÁSICO
             </h1>
-            <h2 className="m-6 font-semibold text-5xl lg:text-base lg:m-1">
+            <h2 className="m-6 font-semibold text-5xl xsm:text-sm xsm:m-0 lg:text-base lg:m-1">
               R$20
               <strong className="font-normal text-base text-[#FCFCFCCC]">
                 /mes
               </strong>
             </h2>
-            <ul className="list-disc marker:text-2xl lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/aa.svg)]">
-              <li className="mb-4 lg:mb-1">
+            <ul className="list-disc xsm:ml-2 xsm:text-xs xsm:p-0 lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/aa.svg)]">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Acesso a todos os equipamentos da Academia</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Tempo de treinamento ilimitado</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>1 entrada gratuita para um amigo a cada mês</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Descontos em aulas fitness em grupo</p>
               </li>
             </ul>
-            <button className="flex justify-center rounded-lg border lg:px-2 lg:py-0 border-white px-20 py-2 ">
+            <button className="flex justify-center rounded-lg border xsm:px-0 xsm:py-0 xsm:text-xs lg:px-2 lg:py-0 border-white px-20 py-2 ">
               Comprar Online
             </button>
           </div>
-          <div className="flex flex-col justify-center items-center content-center text-center bg-[#26ADD9] rounded-lg h-[590px] w-[352px] lg:h-[430px] lg:w-[300px]">
-            <h1 className="m-4 font-semibold text-3xl lg:font-normal lg:text-2xl lg:m-1">
+          <div className="flex flex-col justify-center items-center content-center text-center bg-[#26ADD9] rounded-lg h-[590px] w-[352px] xsm:h-[600px] xsm:w-[125px] lg:h-[430px] lg:w-[300px]">
+            <h1 className="m-4 font-semibold text-3xl xsm:text-base xsm:m-0 lg:font-normal lg:text-2xl lg:m-1">
               PLUS
             </h1>
-            <h2 className="mb-8 font-semibold text-5xl lg:text-base lg:m-1">
+            <h2 className="mb-8 font-semibold text-5xl xsm:text-sm xsm:m-0 lg:text-base lg:m-1">
               R$20
               <strong className="font-normal text-base text-[#FCFCFCCC]">
                 /mes
               </strong>
             </h2>
-            <ul className="list-disc marker:text-2xl lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/bb.svg)]">
-              <li className="mb-4 lg:mb-1">
+            <ul className="list-disc marker:text-base lg:ml-7 xsm:text-xs xsm:p-0 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/bb.svg)]">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Todos os benefícios do BÁSICO</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Programas de treinamento especializados</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Dua sessões de treinamento pessoal gratuitas por mês</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Pré-encomendas em nossa loja online</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Descontos em aulas fitness em grupo</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Desconto em nosso nutricionista</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Acesso aos nossos eventos exclusivos</p>
               </li>
             </ul>
-            <button className="flex justify-center lg:px-10 lg:py-4 bg-white rounded-lg border text-base font-semibold text-black px-20 py-2 ">
+            <button className="flex justify-center xsm:px-0 xsm:py-0 xsm:text-xs lg:px-10 lg:py-4 bg-white rounded-lg border text-base font-semibold text-black px-20 py-2 ">
               Comprar Online
             </button>
           </div>
-          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] lg:h-[330px] lg:w-[200px]">
-            <h1 className="m-6 font-medium text-3xl lg:font-normal lg:text-2xl lg:m-1">
+          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] xsm:h-[400px] xsm:w-[120px] lg:h-[330px] lg:w-[200px]">
+            <h1 className="m-6 font-medium text-3xl xsm:text-base xsm:m-0 lg:font-normal lg:text-2xl lg:m-1">
               VIP
             </h1>
-            <h2 className="m-6 font-semibold text-5xl lg:text-base lg:m-1">
+            <h2 className="m-6 font-semibold text-5xl xsm:text-sm xsm:m-0 lg:text-base lg:m-1">
               R$20
               <strong className="font-normal text-base text-[#FCFCFCCC]">
                 /mes
               </strong>
             </h2>
-            <ul className="list-disc marker:text-2xl lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/aa.svg)]">
-              <li className="mb-4 lg:mb-1">
+            <ul className="list-disc xsm:ml-2 xsm:text-xs xsm:p-0 lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/aa.svg)] ">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Todos os benefícios do PLUS</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Sessões ilimitadas de treinamento exclusivo</p>
               </li>
-              <li className="mb-4 lg:mb-1">
+              <li className="mb-4 xsm:mb-[2px] lg:mb-1">
                 <p>Descontos VIP em todos os serviços e produtos</p>
               </li>
-              <li className="mb-14 lg:mb-1">
+              <li className="mb-14 xsm:mb-[2px] lg:mb-1">
                 <p>Acesso a todos os eventos exclusivos</p>
               </li>
             </ul>
-            <button className="flex justify-center rounded-lg border border-white px-20 py-2 lg:px-2 lg:py-0">
+            <button className="flex justify-center rounded-lg border border-white px-20 py-2 xsm:px-0 xsm:py-0 xsm:text-xs lg:px-2 lg:py-0">
               Comprar Online
             </button>
           </div>
