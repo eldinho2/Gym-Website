@@ -1,8 +1,28 @@
+'use client'
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect } from "react";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export default function Header() {
+  const onscroll = () => {
+    const header = document.querySelector('header')
+    if (header) {
+      if (window.scrollY > 0) {
+        header.classList.add('bg-black')
+      } else {
+        header.classList.remove('bg-black')
+      }
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener('scroll', onscroll)
+    return () => {
+      window.removeEventListener('scroll', onscroll)
+    }
+  }, [])
   return (
     <header className="flex justify-center items-center w-full fixed z-10 h-36">
       <div className="flex justify-evenly items-center">

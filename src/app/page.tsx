@@ -1,13 +1,12 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <section className="flex justify-center items-center relative w-full h-[800px]">
+      <section
+       className="flex justify-center items-center relative w-full h-[725px]"
+       >
         <Image
-          className="object-cover"
           quality={100}
           priority={true}
           fill={true}
@@ -27,7 +26,7 @@ export default function Home() {
             Saiba Mais
           </button>
         </div>
-        <section className="absolute mt-[700px] w-full h-[100px] bg-[rgba(0,0,0,0.3)]">
+        <section className="absolute mt-[700px] w-full h-[120px] bg-[rgba(0,0,0,0.3)]">
           <div className="flex justify-evenly">
             <Image
               className="object-contain"
@@ -39,7 +38,7 @@ export default function Home() {
               src={"/6292330cad752419f8ecfe74.png"}
             />
             <Image
-              className=""
+              className="object-contain"
               quality={100}
               priority={true}
               height={24}
