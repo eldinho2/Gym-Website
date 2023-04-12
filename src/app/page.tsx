@@ -263,14 +263,14 @@ export default function Home() {
       <section className="flex justify-center items-center flex-col mt-10">
         <div>
           <div className="flex flex-col text-[#FCFCFC] gap-2">
-            <h1 className="font-medium text-xl lg:text-lg text-[#55C5E9]">
+            <h1 className="font-medium text-xl lg:text-lg xsm:text-2xl xsm:mx-20 xsm:text-center text-[#55C5E9]">
               Veja como é a nossa Academia
             </h1>
-            <h1 className="font-medium text-5xl lg:text-4xl">Galeria</h1>
+            <h1 className="font-medium text-5xl xsm:text-base xsm:mx-40 lg:text-4xl">Galeria</h1>
           </div>
-          <div className="flex mt-12 gap-5">
+          <div className="flex mt-12 gap-5 xsm:mt-1 xsm:gap-1">
             <Image
-              className="object-contain lg:w-[300px] lg:h-[200px]"
+              className="object-contain xsm:w-[120px] xsm:h-[150px] lg:w-[300px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -279,7 +279,7 @@ export default function Home() {
               src={"/Rectangle 18.png"}
             />
             <Image
-              className="object-contain lg:w-[300px] lg:h-[200px]"
+              className="object-contain xsm:w-[120px] xsm:h-[150px] lg:w-[300px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -288,7 +288,7 @@ export default function Home() {
               src={"/Rectangle 19.png"}
             />
             <Image
-              className="object-contain lg:w-[300px] lg:h-[200px]"
+              className="object-contain xsm:w-[120px] xsm:h-[150px] lg:w-[300px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -298,13 +298,13 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="text-[#FCFCFC] flex w-[1090px] justify-end m-7">
+        <div className="text-[#FCFCFC] flex w-[1090px] justify-end m-7 xsm:w-[350px] xsm:m-1">
           <p className="cursor-pointer">
             Mais fotos <strong className="text-[#55C5E9]">➔</strong>
           </p>
         </div>
       </section>
-      <section className="flex justify-center items-center flex-col m-10 mr-[650px] xsm:mr-[100px]">
+      <section className="flex justify-center items-center flex-col m-10 mr-[650px] xsm:mr-[50px]">
         <div className="flex flex-col text-[#FCFCFC] gap-2">
           <h1 className="font-medium text-xl xsm:text-2xl lg:text-lg text-[#55C5E9]">
             4 Anos de experiencia
