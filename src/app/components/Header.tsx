@@ -52,7 +52,7 @@ export default function Header() {
           />
           FLEXZONE
         </h1>
-          <nav className="flex justify-between md:hidden">
+          <nav className="flex justify-between xsm:hidden sm:hidden md:hidden">
             <ul className="flex gap-8 ml-40 mr-60 xl:gap-1 xl:mr-10 xl:ml-20">
               <li>
                 <Link

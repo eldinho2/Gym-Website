@@ -400,17 +400,17 @@ export default function Home() {
         </div>
       </section>
       <section className="flex justify-center mt-10">
-        <div className="flex justify-center rounded-md w-[1118px] h-[500px] lg:w-[800px] lg:h-[400px] bg-[#FCFCFC1A] text-[#FCFCFC]">
-          <div className="flex flex-col p-10 lg:p-1">
+        <div className="flex justify-center rounded-md w-[1118px] h-[500px] xsm:flex-col xsm:w-[300px] xsm:h-[600px] md:w-[500px] lg:w-[800px] bg-[#FCFCFC1A] text-[#FCFCFC]">
+          <div className="flex flex-col p-10 xsm:p-4 lg:p-1">
             <h1 className="text-[#55C5E9] font-medium text-xl">Contato</h1>
-            <h2 className="font-medium text-2xl py-5">
+            <h2 className="font-medium text-2xl py-5 xsm:py-1">
               Não podemos esperar para te ver.
             </h2>
             <p className="font-normal text-base pb-7 lg:w-[300px] lg:pb-2">
               We are looking forward to you joining our gym, training with us
               and starting your journey for your dream physique.
             </p>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 xsm:gap-1">
               <p className="flex">
                 <Image
                   className="object-contain"
@@ -452,14 +452,14 @@ export default function Home() {
                 Monday - Saturday: 8AM - 20PM Sunday: Closed
               </p>
             </div>
-            <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
+            <p className="mt-5 inline-block cursor-pointer xsm:mt-2 text-[#FCFCFC]">
               Tenho uma pergunta <strong className="text-[#55C5E9]">➔</strong>
             </p>
           </div>
-          <div className="flex justify-center items-center py-7 pr-7 lg:py-2 lg:pr-2">
+          <div className="flex justify-center items-center py-7 pr-7 xsm:py-0 lg:py-2 lg:pr-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.062126999087!2d-46.50492675661717!3d-23.636013255028633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69d81e549de9%3A0x8d6fbee1ed393d7c!2sAcademia%20Smart%20Fit%20-%20Parque%20Orat%C3%B3rio!5e0!3m2!1spt-BR!2sbr!4v1681241633340!5m2!1spt-BR!2sbr"
-              className="border rounded w-[600px] h-[450px] lg:w-[350px] lg:h-[350px]"
+              className="border rounded w-[600px] h-[450px] xsm:w-[200px] xsm:h-[150px] lg:w-[350px] lg:h-[350px]"
               allowFullScreen={true}
               aria-hidden="false"
               tabIndex={0}

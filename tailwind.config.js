@@ -11,9 +11,10 @@ module.exports = {
   ],
   theme: {
     screens: {
-      'sm': {'max': '767px'},
-      'md': {'max': '800px'},
-      'lg': {'max': '1170px'},
+      'xsm': {'min':'0px','max': '500px'},
+      'sm': {'min': '391px','max': '600px'},
+      'md': {'min':'601px', 'max': '800px'},
+      'lg': {'min': '801px','max': '1170px'},
       'xl': {'max': '1400px'},
       '2xl': '1536px',
     },
