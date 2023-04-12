@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <section
-       className="flex justify-center items-center relative w-full h-[725px]"
+       className="flex justify-center items-center relative w-screen h-[725px]"
        >
         <Image
           quality={100}
@@ -58,11 +58,11 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="flex justify-center mt-36">
+      <section className="flex justify-center mt-16">
         <div className="flex flex-col text-[#FCFCFC] gap-2">
-          <h1 className="font-medium text-xl text-[#55C5E9]">Descubra mais</h1>
-          <h1 className="font-medium text-5xl">Sobre Nós</h1>
-          <p className="font-normal text-base h-[336px] w-[544px]">
+          <h1 className="font-medium text-xl lg:text-lg text-[#55C5E9]">Descubra mais</h1>
+          <h1 className="font-medium text-5xl lg:text-4xl">Sobre Nós</h1>
+          <p className="font-normal text-base h-[336px] w-[544px] lg:text-sm lg:h-[250px]">
             Somos uma academia focada na comunidade, localizada no coração do
             centro da cidade. Nossa equipe se dedica a ajudar pessoas de todos
             os níveis de condicionamento físico a atingir seus objetivos e levar
@@ -77,11 +77,11 @@ export default function Home() {
             treinamento para o próximo nível, temos o conhecimento e a
             experiência para ajudá-lo a ter sucesso.
           </p>
-          <button className="bg-[#55C5E9] text-black font-medium text-base px-11 py-3 rounded-md mt-4 hover:cursor-pointer">
+          <button className="bg-[#55C5E9] text-black font-medium text-base px-11 py-3 rounded-md mt-4 hover:cursor-pointer lg:mt-1">
             Saiba Mais
           </button>
         </div>
-        <div className="flex ml-24">
+        <div className="flex ml-24 lg:w-[300px] lg:h-[450px]">
           <Image
             quality={100}
             priority={true}
@@ -93,20 +93,21 @@ export default function Home() {
         </div>
       </section>
       <section className="flex justify-center text-[#FCFCFC] uppercase">
-        <div className="flex justify-center items-center content-center flex-col mt-36">
+        <div className="flex justify-center items-center content-center flex-col mt-16">
           <h1 className="font-medium text-xl text-[#55C5E9]">
             estamos bem preparados para todos
           </h1>
           <h2 className="font-medium text-6xl mb-16">Por que escolher-nos?</h2>
         </div>
       </section>
-      <section className="">
+      <section className="flex justify-center items-center">
+        <div className=" w-[1500px] lg:w-[1300px]">
         <ul className="lista-brilhante text-slate-50 flex flex-wrap justify-center items-center w-full">
           <li className="list-image-[url(/musculo.svg)] max-w-[508px] m-8">
-            <h1 className="font-medium text-4xl text-[#FCFCFC]">
+            <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
               verdadeira atmosfera de academia
             </h1>
-            <p className="font-normal text-base text-[#fcfcfc9c]">
+            <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
               Seja você um iniciante ou um atleta experiente, você se sentirá em
               casa em nosso ambiente inclusivo e acolhedor. Acreditamos que uma
               atmosfera de verdadeira academia é aquela que promove o
@@ -115,10 +116,10 @@ export default function Home() {
             </p>
           </li>
           <li className="list-image-[url(/gym-svgrepo-com.svg)] max-w-[508px] m-8">
-            <h1 className="font-medium text-4xl text-[#FCFCFC]">
+            <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
               todos os tipos de equipamentos
             </h1>
-            <p className="font-normal text-base text-[#fcfcfc9c]">
+            <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
               Nossa academia está completamente equipada com os mais recentes e
               melhores equipamentos fitness. Desde máquinas de cardio até pesos
               livres, temos tudo o que você precisa para alcançar seus objetivos
@@ -128,10 +129,10 @@ export default function Home() {
             </p>
           </li>
           <li className="list-image-[url(/instrutor.svg)] max-w-[508px] m-8">
-            <h1 className="font-medium text-4xl text-[#FCFCFC]">
+            <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
               instrutores experientes
             </h1>
-            <p className="font-normal text-base text-[#fcfcfc9c]">
+            <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
               Nossos instrutores são realmente incríveis! Com anos de
               experiência e uma paixão pelo fitness, eles estão dedicados a
               ajudar nossos membros a alcançarem seus objetivos. Se você quer
@@ -140,10 +141,10 @@ export default function Home() {
             </p>
           </li>
           <li className="list-image-[url(/levant.svg)] max-w-[508px] m-8">
-            <h1 className="font-medium text-4xl text-[#FCFCFC]">
+            <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
               acolhedor e profissional
             </h1>
-            <p className="font-normal text-base text-[#fcfcfc9c]">
+            <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
               Nossa academia se orgulha de ser um lar longe de casa para muitos
               atletas profissionais. Nós entendemos as exigências de
               treinamentos intensos e competições, e nos esforçamos para
@@ -152,9 +153,10 @@ export default function Home() {
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section className="flex justify-center text-[#FCFCFC]">
-        <div className="flex justify-center items-center content-center flex-col mt-20 mb-7">
+        <div className="flex justify-center items-center content-center flex-col mt-10 mb-7">
           <h1 className="font-medium text-xl text-[#55C5E9]">
             PRIMEIRO TREINO GRÁTIS
           </h1>
@@ -163,105 +165,106 @@ export default function Home() {
       </section>
       <section className="flex justify-center text-[#FCFCFC]">
         <div className="flex justify-center items-center gap-8 ">
-          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px]">
-            <h1 className="m-6 font-medium text-3xl">BÁSICO</h1>
-            <h2 className="m-6 font-semibold text-5xl ">
+          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] lg:h-[330px] lg:w-[200px]">
+            <h1 className="m-6 font-medium text-3xl lg:font-normal lg:text-2xl lg:m-1">BÁSICO</h1>
+            <h2 className="m-6 font-semibold text-5xl lg:text-base lg:m-1">
               R$20
               <strong className="font-normal text-base text-[#FCFCFCCC]">
                 /mes
               </strong>
             </h2>
-            <ul className="list-disc marker:text-2xl ml-10 p-0 list-image-[url(/aa.svg)]">
-              <li className="mb-4">
+            <ul className="list-disc marker:text-2xl lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/aa.svg)]">
+              <li className="mb-4 lg:mb-1">
                 <p>Acesso a todos os equipamentos da Academia</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Tempo de treinamento ilimitado</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>1 entrada gratuita para um amigo a cada mês</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Descontos em aulas fitness em grupo</p>
               </li>
             </ul>
-            <button className="flex justify-center rounded-lg border border-white px-20 py-2 ">
+            <button className="flex justify-center rounded-lg border lg:px-2 lg:py-0 border-white px-20 py-2 ">
               Comprar Online
             </button>
           </div>
-          <div className="flex flex-col justify-center items-center content-center text-center bg-[#26ADD9] rounded-lg h-[590px] w-[352px]">
-            <h1 className="m-4 font-semibold text-3xl">PLUS</h1>
-            <h2 className="mb-8 font-semibold text-5xl ">
+          <div className="flex flex-col justify-center items-center content-center text-center bg-[#26ADD9] rounded-lg h-[590px] w-[352px] lg:h-[430px] lg:w-[300px]">
+            <h1 className="m-4 font-semibold text-3xl lg:font-normal lg:text-2xl lg:m-1">PLUS</h1>
+            <h2 className="mb-8 font-semibold text-5xl lg:text-base lg:m-1">
               R$20
               <strong className="font-normal text-base text-[#FCFCFCCC]">
                 /mes
               </strong>
             </h2>
-            <ul className="list-disc marker:text-2xl ml-10 p-0 list-image-[url(/bb.svg)]">
-              <li className="mb-4">
+            <ul className="list-disc marker:text-2xl lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/bb.svg)]">
+              <li className="mb-4 lg:mb-1">
                 <p>Todos os benefícios do BÁSICO</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Programas de treinamento especializados</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Dua sessões de treinamento pessoal gratuitas por mês</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Pré-encomendas em nossa loja online</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Descontos em aulas fitness em grupo</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Desconto em nosso nutricionista</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Acesso aos nossos eventos exclusivos</p>
               </li>
             </ul>
-            <button className="flex justify-center bg-white rounded-lg border text-base font-semibold text-black px-20 py-2 ">
+            <button className="flex justify-center lg:px-10 lg:py-4 bg-white rounded-lg border text-base font-semibold text-black px-20 py-2 ">
               Comprar Online
             </button>
           </div>
-          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px]">
-            <h1 className="m-6 font-medium text-3xl">VIP</h1>
-            <h2 className="m-6 font-semibold text-5xl ">
+          <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] lg:h-[330px] lg:w-[200px]">
+            <h1 className="m-6 font-medium text-3xl lg:font-normal lg:text-2xl lg:m-1">VIP</h1>
+            <h2 className="m-6 font-semibold text-5xl lg:text-base lg:m-1">
               R$20
               <strong className="font-normal text-base text-[#FCFCFCCC]">
                 /mes
               </strong>
             </h2>
-            <ul className="list-disc marker:text-2xl ml-10 p-0 list-image-[url(/aa.svg)]">
-              <li className="mb-4">
+            <ul className="list-disc marker:text-2xl lg:ml-7 lg:text-xs lg:p-2 ml-10 p-0 list-image-[url(/aa.svg)]">
+              <li className="mb-4 lg:mb-1">
                 <p>Todos os benefícios do PLUS</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Sessões ilimitadas de treinamento exclusivo</p>
               </li>
-              <li className="mb-4">
+              <li className="mb-4 lg:mb-1">
                 <p>Descontos VIP em todos os serviços e produtos</p>
               </li>
-              <li className=" mb-14">
+              <li className="mb-14 lg:mb-1">
                 <p>Acesso a todos os eventos exclusivos</p>
               </li>
             </ul>
-            <button className="flex justify-center rounded-lg border border-white px-20 py-2 ">
+            <button className="flex justify-center rounded-lg border border-white px-20 py-2 lg:px-2 lg:py-0">
               Comprar Online
             </button>
           </div>
         </div>
       </section>
-      <section className="flex justify-center flex-col mt-36 ml-48">
-        <div className="flex flex-col justify-center text-[#FCFCFC] gap-2">
-          <h1 className="font-medium text-xl text-[#55C5E9]">
+      <section className="flex justify-center items-center flex-col mt-10">
+        <div>
+        <div className="flex flex-col text-[#FCFCFC] gap-2">
+          <h1 className="font-medium text-xl lg:text-lg text-[#55C5E9]">
             Veja como é a nossa Academia
           </h1>
-          <h1 className="font-medium text-5xl">Galeria</h1>
+          <h1 className="font-medium text-5xl lg:text-4xl">Galeria</h1>
         </div>
         <div className="flex mt-12 gap-5">
           <Image
-            className="object-contain"
+            className="object-contain lg:w-[300px] lg:h-[200px]"
             quality={100}
             priority={true}
             height={256}
@@ -270,7 +273,7 @@ export default function Home() {
             src={"/Rectangle 18.png"}
           />
           <Image
-            className=""
+            className="object-contain lg:w-[300px] lg:h-[200px]"
             quality={100}
             priority={true}
             height={256}
@@ -279,7 +282,7 @@ export default function Home() {
             src={"/Rectangle 19.png"}
           />
           <Image
-            className="object-contain"
+            className="object-contain lg:w-[300px] lg:h-[200px]"
             quality={100}
             priority={true}
             height={256}
@@ -288,23 +291,25 @@ export default function Home() {
             src={"/Rectangle 20.png"}
           />
         </div>
+        </div>
         <div className="text-[#FCFCFC] flex w-[1090px] justify-end m-7">
           <p className="cursor-pointer">
             Mais fotos <strong className="text-[#55C5E9]">➔</strong>
           </p>
         </div>
       </section>
-      <section className="mt-28 ml-48">
+      <section className="flex flex-col justify-center items-center mt-10">
+        <div>
         <div className="flex flex-col text-[#FCFCFC] gap-2">
-          <h1 className="font-medium text-xl text-[#55C5E9]">
+          <h1 className="font-medium text-xl lg:text-lg text-[#55C5E9]">
             4 Anos de experiencia
           </h1>
-          <h1 className="font-medium text-5xl">Nossos Treinadores</h1>
+          <h1 className="font-medium text-5xl lg:text-4xl">Nossos Treinadores</h1>
         </div>
-        <div className="flex mt-12 gap-8">
+        <div className="flex mt-12 gap-8 lg:gap-4">
           <div>
             <Image
-              className="object-contain"
+              className="object-contain lg:w-[200px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -321,12 +326,12 @@ export default function Home() {
               objetivos e alcançando todo o seu potencial.
             </p>
             <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
-              Contato <strong className="text-[#55C5E9]">➔</strong>
+            Ver mais <strong className="text-[#55C5E9]">➔</strong>
             </p>
           </div>
           <div>
             <Image
-              className="object-contain"
+              className="object-contain lg:w-[200px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -344,12 +349,12 @@ export default function Home() {
               para ajudá-los a alcançar todo o seu potencial.
             </p>
             <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
-              Contato <strong className="text-[#55C5E9]">➔</strong>
+            Ver mais <strong className="text-[#55C5E9]">➔</strong>
             </p>
           </div>
           <div>
             <Image
-              className="object-contain"
+              className="object-contain lg:w-[200px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -367,12 +372,12 @@ export default function Home() {
               comportamentos saudáveis que possam sustentar a longo prazo.
             </p>
             <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
-              Contato <strong className="text-[#55C5E9]">➔</strong>
+            Ver mais <strong className="text-[#55C5E9]">➔</strong>
             </p>
           </div>
           <div>
             <Image
-              className="object-contain"
+              className="object-contain lg:w-[200px] lg:h-[200px]"
               quality={100}
               priority={true}
               height={256}
@@ -388,19 +393,20 @@ export default function Home() {
               sempre amei ajudar os outros a alcançarem seus objetivos.
             </p>
             <p className="mt-5 inline-block cursor-pointer text-[#FCFCFC]">
-              Contato <strong className="text-[#55C5E9]">➔</strong>
+              Ver mais <strong className="text-[#55C5E9]">➔</strong>
             </p>
+          </div>
           </div>
         </div>
       </section>
-      <section className="flex justify-center">
-        <div className="flex justify-center rounded-md w-[1118px] h-[500px] bg-[#FCFCFC1A] text-[#FCFCFC]">
-          <div className="flex flex-col p-10">
+      <section className="flex justify-center mt-10">
+        <div className="flex justify-center rounded-md w-[1118px] h-[500px] lg:w-[800px] lg:h-[400px] bg-[#FCFCFC1A] text-[#FCFCFC]">
+          <div className="flex flex-col p-10 lg:p-1">
             <h1 className="text-[#55C5E9] font-medium text-xl">Contato</h1>
             <h2 className="font-medium text-2xl py-5">
               Não podemos esperar para te ver.
             </h2>
-            <p className="font-normal text-base pb-7">
+            <p className="font-normal text-base pb-7 lg:w-[300px] lg:pb-2">
               We are looking forward to you joining our gym, training with us
               and starting your journey for your dream physique.
             </p>
@@ -450,12 +456,10 @@ export default function Home() {
               Tenho uma pergunta <strong className="text-[#55C5E9]">➔</strong>
             </p>
           </div>
-          <div className="flex justify-center pt-7 pr-7">
+          <div className="flex justify-center items-center py-7 pr-7 lg:py-2 lg:pr-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.062126999087!2d-46.50492675661717!3d-23.636013255028633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69d81e549de9%3A0x8d6fbee1ed393d7c!2sAcademia%20Smart%20Fit%20-%20Parque%20Orat%C3%B3rio!5e0!3m2!1spt-BR!2sbr!4v1681241633340!5m2!1spt-BR!2sbr"
-              width="600"
-              height="450"
-              className="border rounded"
+              className="border rounded w-[600px] h-[450px] lg:w-[350px] lg:h-[350px]"
               allowFullScreen={true}
               aria-hidden="false"
               tabIndex={0}
