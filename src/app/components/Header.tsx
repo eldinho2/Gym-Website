@@ -2,29 +2,38 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import { FaFacebookSquare, FaInstagram } from "react-icons/fa";
 
 export default function Header() {
-  const onscroll = () => {
-    const header = document.querySelector('header')
-    if (header) {
-      if (window.scrollY > 0) {
-        header.classList.add('bg-black')
-      } else {
-        header.classList.remove('bg-black')
-      }
-    }
-  }
+  const referencia = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    window.addEventListener('scroll', onscroll)
-    return () => {
-      window.removeEventListener('scroll', onscroll)
+    const header = referencia.current;
+  
+    function handleScroll() {
+      if (header) {
+        if (window.scrollY > 100) {
+          header.classList.add('bg-[rgba(0,0,0,0.9)]');
+          header.classList.add('h-20');
+          header.classList.remove('bg-transparent');
+        } else {
+          header.classList.remove('bg-[rgba(0,0,0,0.9)]');
+          header.classList.remove('h-20');
+          header.classList.add('bg-transparent');
+        }
+      }
     }
-  }, [])
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <header className="flex justify-center items-center w-full fixed z-10 h-36">
+    <header ref={referencia} className="flex justify-center items-center w-full fixed z-10 h-36">
       <div className="flex justify-evenly items-center">
         <h1 className="flex font-bold text-3xl hover:cursor-pointer text-[#FCFCFC] relative">
           <Image className="right-[149px] bottom-[8px] absolute" width={30} height={10} src="/muscleBlue.png" alt="" />
