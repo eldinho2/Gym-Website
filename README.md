@@ -1,6 +1,6 @@
 # Gym-Website
 
-O Travel-App é um projeto de aplicativo desenvolvido para ajudar os usuários a planejarem suas viagens. O aplicativo fornece informações sobre destinos turísticos, dicas de viagem e planejamento de itinerários.
+Este é um projeto de site para academia, desenvolvido com React, tailwindCSS, Next.js e TypeScript. O objetivo deste projeto é fornecer uma solução simples e elegante para apresentar informações sobre uma academia e seus serviços aos usuários.
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
