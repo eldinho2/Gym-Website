@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={`bg-black ${poppins.variable} font-sans`}>
+      <body className={`bg-black ${poppins.variable} overflow-x-hidden font-sans`}>
         <Header />
         {children}
         <Footer />
