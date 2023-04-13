@@ -57,12 +57,12 @@ export default function Home() {
         </section>
       </section>
       <section className="flex justify-center mt-16">
-        <div className="flex flex-col text-[#FCFCFC] gap-2">
-          <h1 className="font-medium text-xl lg:text-lg text-[#55C5E9]">
+        <div className="flex flex-col text-[#FCFCFC] gap-2 xsm:ml-32">
+          <h1 className="font-medium text-xl xsm:text-lg xsm:mx-20 lg:text-lg text-[#55C5E9]">
             Descubra mais
           </h1>
-          <h1 className="font-medium text-5xl lg:text-4xl">Sobre Nós</h1>
-          <p className="font-normal text-base h-[336px] w-[544px] lg:text-sm lg:h-[250px]">
+          <h1 className="font-medium text-5xl xsm:mx-20 xsm:text-3xl lg:text-4xl">Sobre Nós</h1>
+          <p className="font-normal text-base h-[336px] w-[544px] xsm:text-sm xsm:w-[300px] xsm:h-[450px] xsm:mx-10 lg:text-sm lg:h-[250px]">
             Somos uma academia focada na comunidade, localizada no coração do
             centro da cidade. Nossa equipe se dedica a ajudar pessoas de todos
             os níveis de condicionamento físico a atingir seus objetivos e levar
@@ -83,6 +83,7 @@ export default function Home() {
         </div>
         <div className="flex ml-24 lg:w-[300px] lg:h-[450px]">
           <Image
+            className="xsm:w-0 xsm:h-0"
             quality={100}
             priority={true}
             width={485}
@@ -93,21 +94,21 @@ export default function Home() {
         </div>
       </section>
       <section className="flex justify-center text-[#FCFCFC] uppercase">
-        <div className="flex justify-center items-center content-center flex-col mt-16">
-          <h1 className="font-medium text-xl text-[#55C5E9]">
+        <div className="flex justify-center items-center content-center flex-col mt-16 xsm:mx-10 xsm:text-center">
+          <h1 className="font-medium text-xl xsm:text-lg   text-[#55C5E9]">
             estamos bem preparados para todos
           </h1>
-          <h2 className="font-medium text-6xl mb-16">Por que escolher-nos?</h2>
+          <h2 className="font-medium text-6xl mb-16 xsm:text-3xl">Por que escolher-nos?</h2>
         </div>
       </section>
       <section className="flex justify-center items-center">
         <div className=" w-[1500px] lg:w-[1300px]">
           <ul className="lista-brilhante text-slate-50 flex flex-wrap justify-center items-center w-full">
-            <li className="list-image-[url(/musculo.svg)] max-w-[508px] m-8">
-              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
+            <li className="list-image-[url(/musculo.svg)] max-w-[508px] m-8 xsm:ml-20">
+              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 xsm:text-xl text-[#FCFCFC]">
                 verdadeira atmosfera de academia
               </h1>
-              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
+              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] xsm:text-xs xsm:w-[200px] text-[#fcfcfc9c]">
                 Seja você um iniciante ou um atleta experiente, você se sentirá
                 em casa em nosso ambiente inclusivo e acolhedor. Acreditamos que
                 uma atmosfera de verdadeira academia é aquela que promove o
@@ -115,11 +116,11 @@ export default function Home() {
                 arduamente para criar esse tipo de cultura todos os dias.
               </p>
             </li>
-            <li className="list-image-[url(/gym-svgrepo-com.svg)] max-w-[508px] m-8">
-              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
+            <li className="list-image-[url(/gym-svgrepo-com.svg)] max-w-[508px] m-8 xsm:ml-20">
+              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 xsm:text-xl text-[#FCFCFC]">
                 todos os tipos de equipamentos
               </h1>
-              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
+              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] xsm:text-xs xsm:w-[200px] text-[#fcfcfc9c]">
                 Nossa academia está completamente equipada com os mais recentes
                 e melhores equipamentos fitness. Desde máquinas de cardio até
                 pesos livres, temos tudo o que você precisa para alcançar seus
@@ -128,11 +129,11 @@ export default function Home() {
                 equipamento perfeito para seus treinos.
               </p>
             </li>
-            <li className="list-image-[url(/instrutor.svg)] max-w-[508px] m-8">
-              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
+            <li className="list-image-[url(/instrutor.svg)] max-w-[508px] m-8 xsm:ml-20">
+              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 xsm:text-xl text-[#FCFCFC]">
                 instrutores experientes
               </h1>
-              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
+              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] xsm:text-xs xsm:w-[200px] text-[#fcfcfc9c]">
                 Nossos instrutores são realmente incríveis! Com anos de
                 experiência e uma paixão pelo fitness, eles estão dedicados a
                 ajudar nossos membros a alcançarem seus objetivos. Se você quer
@@ -140,11 +141,11 @@ export default function Home() {
                 e bem-estar em geral, nossos instrutores estão aqui para ajudar.
               </p>
             </li>
-            <li className="list-image-[url(/levant.svg)] max-w-[508px] m-8">
-              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 text-[#FCFCFC]">
+            <li className="list-image-[url(/levant.svg)] max-w-[508px] m-8 xsm:ml-20">
+              <h1 className="font-medium text-4xl lg:font-normal lg:text-2xl lg:pb-4 xsm:text-xl text-[#FCFCFC]">
                 acolhedor e profissional
               </h1>
-              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] text-[#fcfcfc9c]">
+              <p className="font-normal text-base lg:font-light lg:text-sm lg:w-[400px] xsm:text-xs xsm:w-[200px] text-[#fcfcfc9c]">
                 Nossa academia se orgulha de ser um lar longe de casa para
                 muitos atletas profissionais. Nós entendemos as exigências de
                 treinamentos intensos e competições, e nos esforçamos para
@@ -157,10 +158,10 @@ export default function Home() {
       </section>
       <section className="flex justify-center text-[#FCFCFC]">
         <div className="flex justify-center items-center content-center flex-col mt-10 mb-7">
-          <h1 className="font-medium text-xl text-[#55C5E9]">
+          <h1 className="font-medium text-xl xsm:text-2xl text-[#55C5E9]">
             PRIMEIRO TREINO GRÁTIS
           </h1>
-          <h2 className="font-medium text-6xl">PLANOS</h2>
+          <h2 className="font-medium text-6xl xsm:text-2xl">PLANOS</h2>
         </div>
       </section>
       <section className="flex justify-center text-[#FCFCFC]">
