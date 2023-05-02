@@ -1,6 +1,16 @@
+'use client'
+
 import Image from "next/image";
+import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export default function Home() {
+
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   return (
     <main>
       <section className="flex justify-center items-center relative w-screen h-[725px]">
@@ -56,7 +66,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="flex justify-center mt-16">
+      <section data-aos="fade-up" className="flex justify-center mt-16">
         <div className="flex flex-col text-[#FCFCFC] gap-2 xsm:ml-32">
           <h1 className="font-medium text-xl xsm:text-lg xsm:mx-20 lg:text-lg text-[#55C5E9]">
             Descubra mais
@@ -93,7 +103,7 @@ export default function Home() {
           />
         </div>
       </section>
-      <section className="flex justify-center text-[#FCFCFC] uppercase">
+      <section data-aos="fade-up" className="flex justify-center text-[#FCFCFC] uppercase">
         <div className="flex justify-center items-center content-center flex-col mt-16 xsm:mx-10 xsm:text-center">
           <h1 className="font-medium text-xl xsm:text-lg   text-[#55C5E9]">
             estamos bem preparados para todos
@@ -101,7 +111,7 @@ export default function Home() {
           <h2 className="font-medium text-6xl mb-16 xsm:text-3xl">Por que escolher-nos?</h2>
         </div>
       </section>
-      <section className="flex justify-center items-center">
+      <section data-aos="fade-up" className="flex justify-center items-center">
         <div className=" w-[1500px] lg:w-[1300px]">
           <ul className="lista-brilhante text-slate-50 flex flex-wrap justify-center items-center w-full">
             <li className="list-image-[url(/musculo.svg)] max-w-[508px] m-8 xsm:ml-20">
@@ -156,7 +166,7 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      <section className="flex justify-center text-[#FCFCFC]">
+      <section data-aos="fade-up" className="flex justify-center text-[#FCFCFC]">
         <div className="flex justify-center items-center content-center flex-col mt-10 mb-7">
           <h1 className="font-medium text-xl xsm:text-2xl text-[#55C5E9]">
             PRIMEIRO TREINO GRÁTIS
@@ -164,7 +174,7 @@ export default function Home() {
           <h2 className="font-medium text-6xl xsm:text-2xl">PLANOS</h2>
         </div>
       </section>
-      <section className="flex justify-center text-[#FCFCFC]">
+      <section data-aos="fade-up" className="flex justify-center text-[#FCFCFC]">
         <div className="flex justify-center items-center gap-8 xsm:gap-1">
           <div className="flex flex-col justify-center items-center content-center text-center bg-[#FFFFFF1A] rounded-lg h-[526px] w-[352px] xsm:h-[300px] xsm:w-[120px] lg:h-[330px] lg:w-[200px]">
             <h1 className="m-6 font-medium text-3xl xsm:text-base xsm:m-0 lg:font-normal lg:text-2xl lg:m-1">
@@ -261,7 +271,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="flex justify-center items-center flex-col mt-10">
+      <section data-aos="fade-up" className="flex justify-center items-center flex-col mt-10">
         <div>
           <div className="flex flex-col text-[#FCFCFC] gap-2">
             <h1 className="font-medium text-xl lg:text-lg xsm:text-2xl xsm:mx-20 xsm:text-center text-[#55C5E9]">
@@ -305,7 +315,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="flex justify-center items-center flex-col m-10 mr-[650px] xsm:mr-[50px]">
+      <section data-aos="fade-up" className="flex justify-center items-center flex-col m-10 mr-[650px] xsm:mr-[50px]">
         <div className="flex flex-col text-[#FCFCFC] gap-2">
           <h1 className="font-medium text-xl xsm:text-2xl lg:text-lg text-[#55C5E9]">
             4 Anos de experiencia
@@ -315,7 +325,7 @@ export default function Home() {
           </h1>
         </div>
       </section>
-      <section className="flex justify-center items-center">
+      <section data-aos="fade-up" className="flex justify-center items-center">
         <div className="w-[1500px]">
           <ul className="flex justify-center flex-wrap gap-6 xsm:gap-2 w-full">
             <li className="max-w-[400px]">
@@ -410,7 +420,7 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      <section className="flex justify-center mt-10">
+      <section data-aos="fade-up" className="flex justify-center mt-10">
         <div className="flex justify-center rounded-md w-[1118px] h-[500px] xsm:flex-col xsm:w-[300px] xsm:h-[600px] md:w-[500px] lg:w-[800px] bg-[#FCFCFC1A] text-[#FCFCFC]">
           <div className="flex flex-col p-10 xsm:p-4 lg:p-1">
             <h1 className="text-[#55C5E9] font-medium text-xl">Contato</h1>
