@@ -39,7 +39,7 @@ export default function Header() {
   return (
     <header
       ref={referencia}
-      className="flex justify-center items-center w-full fixed z-10 h-32 xl:h-20"
+      className="flex justify-center items-center w-screen fixed z-10 h-32 xl:h-20"
     >
       <div className="flex justify-evenly items-center">
         <h1 className="flex font-bold text-3xl hover:cursor-pointer text-[#FCFCFC] relative xl:text-lg">

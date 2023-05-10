@@ -67,7 +67,7 @@ export default function Home() {
         </section>
       </section>
       <section data-aos="fade-up" className="flex justify-center mt-16">
-        <div className="flex flex-col text-[#FCFCFC] gap-2 xsm:ml-32">
+        <div className="flex justify-center flex-col text-[#FCFCFC] gap-2 xsm:ml-32">
           <h1 className="font-medium text-xl xsm:text-lg xsm:mx-20 lg:text-lg text-[#55C5E9]">
             Descubra mais
           </h1>
@@ -87,7 +87,7 @@ export default function Home() {
             treinamento para o próximo nível, temos o conhecimento e a
             experiência para ajudá-lo a ter sucesso.
           </p>
-          <button className="bg-[#55C5E9] text-black font-medium text-base px-11 py-3 rounded-md mt-4 hover:cursor-pointer lg:mt-1">
+          <button className="bg-[#55C5E9] text-black font-medium text-base px-11 py-3 rounded-md mt-4 hover:cursor-pointer lg:mt-1 max-w-[350px]">
             Saiba Mais
           </button>
         </div>
